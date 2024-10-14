@@ -2,14 +2,14 @@
 
 Este repositorio aloja el blog .netCOP el cual tiene como objetivo formar una comunidad colombiana o global compartiendo diferentes documentos con informacion de utilidad
 
-## Tools
+## 🛠️ Tools
 
 - <img src="https://nextjs.org/static/favicon/favicon.ico" alt="Next.js" width="20" height="20"> Next.js
 - <img src="https://mediaresource.sfo2.digitaloceanspaces.com/wp-content/uploads/2024/04/20161105/shadcn-ui-logo-EF735EC0E5-seeklogo.com.png" alt="ShadCN" width="20" height="20"> ShadCN
 - <img src="https://reactrouter.com/favicon.ico" alt="React Router" width="20" height="20"> React Router
 - <img src="https://cdn-icons-png.flaticon.com/512/17134/17134132.png" alt="Yup" width="20" height="20"> Yup
 
-## Estructura del proyecto
+## 📂 Estructura del Proyecto
 
 ```
 📦 App
@@ -31,7 +31,7 @@ Este repositorio aloja el blog .netCOP el cual tiene como objetivo formar una co
 ├─📜 tsconfig.json
 ```
 
-## Convenciones
+## 📖 Convenciones
 
 ### Guía de Conventional Commits
 
@@ -50,10 +50,11 @@ Cada mensaje de commit debe tener la siguiente estructura:
   - `refactor`: Cambios en el código que no añaden funcionalidad ni corrigen bugs
   - `test`: Añadir pruebas faltantes o corregir pruebas existentes
   - `chore`: Cambios en el proceso de construcción o herramientas auxiliares
+
 - **alcance**: (opcional) Un contexto que indica qué parte del código afecta el cambio. Por ejemplo: `ui`, `api`, `build`.
 - **descripción**: Una breve descripción del cambio. Se recomienda que sea en tiempo presente y en imperativo. Ejemplo: "Añadir botón de inicio de sesión".
 
-### Nombrado de Ramas
+### 🌿 Estructura de Ramas
 
 Las ramas deben seguir la siguiente convención de nomenclatura:
 
@@ -68,7 +69,7 @@ Las ramas deben seguir la siguiente convención de nomenclatura:
 - `maria123/fix/3213/api-endpoint`
 - `alexgarcia/bug/3421/authentication-error`
 
-## instalacion  del proyecto 
+## 🚀 Getting Started Project
 
 Para comenzar a trabajar en el proyecto .NetCOP, sigue estos pasos:
 
@@ -77,36 +78,35 @@ Para comenzar a trabajar en el proyecto .NetCOP, sigue estos pasos:
    ```bash
    git clone https://github.com/{NombreGithubUsuario}/.NetCOP.git
    ```
+
 2. **Cambia al directorio del proyecto**:
 
    ```
    cd .NetCOP
    ```
+
 3. **Instala las dependencias**:
 
    ```
    npm ci
    ```
+
 4. **Corre el proyecto**:
 
    ```
    npm run dev
    ```
 
+## 🔄 Flujo de Trabajo
 
-## Flujo de Trabajo
+1. **🗂️ Revisar las Issues** disponibles.
 
-1. **Revisar las Issues** disponibles.
-  
-2. **Tomar una** según su criterio.
-  
-3. **Crear la rama** con su convención.
-  
-4. **Montar pull request** con etiqueta.
-  
-5. **Documentar el pull request**.
-  
-6. **Esperar revisión**.
+2. **📋 Tomar una** según su criterio.
 
+3. **🌳 Crear la rama** con su convención.
 
+4. **🔄 Montar pull request** con etiqueta.
 
+5. **📝 Documentar el pull request**.
+
+6. **👀 Esperar revisión**.

@@ -19,8 +19,8 @@ Este repositorio aloja el blog .netCOP el cual tiene como objetivo formar una co
     ├── 📂 app
     ├── 📂 components
     ├── 📂 lib
-├─📜 _material-icons.scss Material Icons Font .eslintrc.json
-├─📜 _material-icons.scss Material Icons Font .gitignore
+├─📜 _.eslintrc.json
+├─📜 _.gitignore
 ├─📜 _components.json
 ├─📜 _next-env.d.ts
 ├─📜 _next.config.mjs

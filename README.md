@@ -7,7 +7,7 @@ Este repositorio aloja el blog .netCOP el cual tiene como objetivo formar una co
 - <img src="https://nextjs.org/static/favicon/favicon.ico" alt="Next.js" width="20" height="20"> Next.js
 - <img src="https://mediaresource.sfo2.digitaloceanspaces.com/wp-content/uploads/2024/04/20161105/shadcn-ui-logo-EF735EC0E5-seeklogo.com.png" alt="ShadCN" width="20" height="20"> ShadCN
 - <img src="https://reactrouter.com/favicon.ico" alt="React Router" width="20" height="20"> React Router
-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Yup_Logo.svg/1024px-Yup_Logo.svg.png" alt="Yup" width="20" height="20"> Yup
+- <img src="https://cdn-icons-png.flaticon.com/512/17134/17134132.png" alt="Yup" width="20" height="20"> Yup
 
 ## Estructura del proyecto
 
@@ -64,27 +64,31 @@ Las ramas deben seguir la siguiente convención de nomenclatura:
 
 #### Ejemplo de Nombres de Ramas
 
-- `juanperez/feature/login-button`
-- `maria123/fix/api-endpoint`
-- `alexgarcia/bug/authentication-error`
+- `juanperez/feature/4343/login-button`
+- `maria123/fix/3213/api-endpoint`
+- `alexgarcia/bug/3421/authentication-error`
 
 ## instalacion  del proyecto 
 
 Para comenzar a trabajar en el proyecto .NetCOP, sigue estos pasos:
 
 1. **Clona el repositorio** a partir de la rama `main`:
+
    ```bash
    git clone https://github.com/{NombreGithubUsuario}/.NetCOP.git
    ```
 2. **Cambia al directorio del proyecto**:
+
    ```
    cd .NetCOP
    ```
 3. **Instala las dependencias**:
+
    ```
    npm ci
    ```
 4. **Corre el proyecto**:
+
    ```
    npm run dev
    ```

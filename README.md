@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# .NetCOP
 
-## Getting Started
+Este repositorio aloja el blog .netCOP el cual tiene como objetivo formar una comunidad colombiana o global compartiendo diferentes documentos con informacion de utilidad
 
-First, run the development server:
+## Tools
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- <img src="https://nextjs.org/static/favicon/favicon.ico" alt="Next.js" width="20" height="20"> Next.js
+- <img src="https://mediaresource.sfo2.digitaloceanspaces.com/wp-content/uploads/2024/04/20161105/shadcn-ui-logo-EF735EC0E5-seeklogo.com.png" alt="ShadCN" width="20" height="20"> ShadCN
+- <img src="https://reactrouter.com/favicon.ico" alt="React Router" width="20" height="20"> React Router
+- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Yup_Logo.svg/1024px-Yup_Logo.svg.png" alt="Yup" width="20" height="20"> Yup
+
+## Estructura del proyecto
+
+```
+📦 App
+├─📂 node_modules
+├─📂 .next
+├─📂 src
+    ├── 📂 app
+    ├── 📂 components
+    ├── 📂 lib
+├─📜 _material-icons.scss Material Icons Font .eslintrc.json
+├─📜 _material-icons.scss Material Icons Font .gitignore
+├─📜 _components.json
+├─📜 _next-env.d.ts
+├─📜 _next.config.mjs
+├─📜 _package-lock.jsons
+├─📜 _package.json
+├─📜 _postcss.config.mjs
+├─📜 _tailwind.config.ts
+├─📜 tsconfig.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Convenciones
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Guía de Conventional Commits
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Los **Conventional Commits** son una convención para escribir mensajes de commit que facilitan la comprensión del historial del proyecto. Utilizar esta convención ayuda a los desarrolladores a entender rápidamente qué cambios se han realizado y por qué. A continuación se presentan las principales reglas:
 
-## Learn More
+#### Estructura del Mensaje de Commit
 
-To learn more about Next.js, take a look at the following resources:
+Cada mensaje de commit debe tener la siguiente estructura:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **tipo**: El tipo de cambio que se está realizando. Ejemplos comunes incluyen:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+  - `feat`: Una nueva funcionalidad
+  - `fix`: Corrección de un bug
+  - `docs`: Cambios en la documentación
+  - `style`: Cambios que no afectan el significado del código (espacios en blanco, formato, etc.)
+  - `refactor`: Cambios en el código que no añaden funcionalidad ni corrigen bugs
+  - `test`: Añadir pruebas faltantes o corregir pruebas existentes
+  - `chore`: Cambios en el proceso de construcción o herramientas auxiliares
+- **alcance**: (opcional) Un contexto que indica qué parte del código afecta el cambio. Por ejemplo: `ui`, `api`, `build`.
+- **descripción**: Una breve descripción del cambio. Se recomienda que sea en tiempo presente y en imperativo. Ejemplo: "Añadir botón de inicio de sesión".
 
-## Deploy on Vercel
+### Nombrado de Ramas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Las ramas deben seguir la siguiente convención de nomenclatura:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **NombreGithubUsuario**: Tu nombre de usuario en GitHub.
+- **tipo**: El tipo de cambio que estás realizando (ejemplo: `feature`, `bug`, `etc`).
+- **codigotarea**: Código o nombre del área relacionada con el cambio.
+- **titulo-de-la-rama**: Breve descripción de la tarea en minúsculas y palabras separadas por guiones.
+
+#### Ejemplo de Nombres de Ramas
+
+- `juanperez/feature/login-button`
+- `maria123/fix/api-endpoint`
+- `alexgarcia/bug/authentication-error`
+
+## instalacion  del proyecto 
+
+Para comenzar a trabajar en el proyecto .NetCOP, sigue estos pasos:
+
+1. **Clona el repositorio** a partir de la rama `main`:
+   ```bash
+   git clone https://github.com/{NombreGithubUsuario}/.NetCOP.git
+   ```
+2. **Cambia al directorio del proyecto**:
+   ```
+   cd .NetCOP
+   ```
+3. **Instala las dependencias**:
+   ```
+   npm ci
+   ```
+4. **Corre el proyecto**:
+   ```
+   npm run dev
+   ```
+
+
+## Flujo de Trabajo
+
+1. **Revisar las Issues** disponibles.
+  
+2. **Tomar una** según su criterio.
+  
+3. **Crear la rama** con su convención.
+  
+4. **Montar pull request** con etiqueta.
+  
+5. **Documentar el pull request**.
+  
+6. **Esperar revisión**.
+
+
+

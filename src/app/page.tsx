@@ -5,6 +5,7 @@ export default function Home() {
   const articules: ArticuleCard[] = [
     {
       idArticule: 1,
+      image: 'https://images.unsplash.com/photo-1599507593499-a3f7d7d97667?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       title: ".NET is Better",
       description:
         "Discover why .NET stands ßout as one of the best frameworks for building modern, scalable applications. In this article, we compare its performance, flexibility, and ease of use, making it a strong choice for developers looking to build robust enterprise-level solutions. Learn about the advantages of .NET over its competitors in the world of software development.",
@@ -22,6 +23,7 @@ export default function Home() {
     {
       idArticule: 3,
       title: "Your subscription is expiring soon!",
+      image: 'https://images.unsplash.com/photo-1599507593499-a3f7d7d97667?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       description:
         "Don't miss out on exclusive content and updates! Your subscription is set to expire soon. Renew now to continue enjoying premium features, including in-depth articles, tutorials, and access to our developer community. Stay up to date with the latest trends in software development by keeping your subscription active.",
       date: "2024-10-14",
@@ -39,7 +41,7 @@ export default function Home() {
 
   return (
     <>
-      <main className=" mx-auto container grid grid-cols-3 p-5 bg-black gap-5">
+      <main className=" mx-auto container flex p-5 gap-3">
         {articules.map((articule) => (
           <CardActicule articule={articule} key={articule.idArticule} />
         ))}

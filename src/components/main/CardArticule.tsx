@@ -22,20 +22,22 @@ export function CardActicule({
   ...props
 }: CardActiculeProps) {
   return (
-    <Card className={cn("w-[500px] h-[500px] bg-card", className)} {...props}>
-      <CardHeader>
+    <Card className={cn("w-[500px]  rounded-md border-none ", className)} {...props}>
+      <CardHeader className="p-0 mb-6">
         {!!articule.image && (
           <Image
             src={articule.image}
             width={500}
             height={500}
             alt={"artucule image"}
+            objectFit="cover"
+            className=" rounded-t-lg"
           />
         )}
       </CardHeader>
       <CardContent className="grid gap-4">
         <CardTitle>{articule.title}</CardTitle>
-        <CardDescription  >{articule.description}</CardDescription>
+        <CardDescription className=" overflow-hidden text-ellipsis  line-clamp-3 max-h-24"  >{articule.description}</CardDescription>
       </CardContent>
       <CardFooter>
         <Button className="w-full">

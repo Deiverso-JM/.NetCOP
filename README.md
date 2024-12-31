@@ -4,7 +4,7 @@ Este repositorio aloja el blog .netCOP el cual tiene como objetivo formar una co
 
 ## 🛠️ Tools
 
-- <img src="https://nextjs.org/static/favicon/favicon.ico" alt="Next.js" width="20" height="20"> Next.js
+- <img src="https://miro.medium.com/v2/resize:fit:1400/1*nLbfO_PdTSpeCdZQuUr8RQ.png" alt="Astro.js" width="20" height="20"> Next.js
 - <img src="https://mediaresource.sfo2.digitaloceanspaces.com/wp-content/uploads/2024/04/20161105/shadcn-ui-logo-EF735EC0E5-seeklogo.com.png" alt="ShadCN" width="20" height="20"> ShadCN
 - <img src="https://reactrouter.com/favicon.ico" alt="React Router" width="20" height="20"> React Router
 - <img src="https://cdn-icons-png.flaticon.com/512/17134/17134132.png" alt="Yup" width="20" height="20"> Yup
